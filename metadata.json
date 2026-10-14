@@ -1,0 +1,6 @@
+{
+  "name": "SimulaBrasil - Simulados Gratuitos ENEM, SAEB e Vestibulares",
+  "description": "Plataforma gratuita e universal de simulados e treino para estudantes do Ensino Fundamental e Médio (ENEM, SAEB, Prova Paulista, OBA e Vestibulares) sem necessidade de login.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

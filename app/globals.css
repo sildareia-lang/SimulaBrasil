@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-heading: 'Plus Jakarta Sans', sans-serif;
+    --font-body: 'Inter', sans-serif;
+  }
+
+  body {
+    font-family: var(--font-body);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+  }
+}
+
+/* Eye Comfort, Sepia and Soft Dark Modes */
+.mode-conforto {
+  background-color: #F4F7F6 !important;
+  color: #2D3748 !important;
+}
+
+.mode-sepia {
+  background-color: #FBF7EE !important;
+  color: #4A3E31 !important;
+}
+
+.mode-sepia .card-surface {
+  background-color: #F5EFE1 !important;
+  border-color: #E6DCB8 !important;
+}
+
+.mode-dark {
+  background-color: #0F172A !important;
+  color: #E2E8F0 !important;
+}
+
+.mode-dark .card-surface {
+  background-color: #1E293B !important;
+  border-color: #334155 !important;
+  color: #F8FAFC !important;
+}
+
+.mode-dark .text-muted {
+  color: #94A3B8 !important;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #CBD5E1;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94A3B8;
+}
